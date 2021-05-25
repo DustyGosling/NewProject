@@ -1,8 +1,10 @@
 body {
-    background-image: url("cool.png");
+    /* background-image: url("cool.png"); */
+    background-color: rgba(0, 0, 0, 0.87);
     background-size: cover;
     text-align: bottom;
     padding: 20px;
+    color: rgb(255, 255, 255);
   }
   
   nav {
@@ -20,7 +22,7 @@ body {
     list-style: disc;
     display: inline;
     margin: 20px;
-    background-color: rgb(230, 247, 0);
+    background-color: transparent;
     padding: 10px;
     border-radius: 10px;
   }
@@ -30,18 +32,42 @@ body {
     color: rgb(255, 255, 255);
     outline: rgb(0, 255, 55);
     border: violet;
-    padding: 25px;
+    padding: 15px;
     background-color: green;
   }
   
   .contents{
       font-size: 25px;
       text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
   }
 
   .social{
+      /* background-color: black;
+      padding: 20px; */
       text-decoration: solid;
       text-align: left;
-      
-      
+      position: fixed;
+      bottom: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .social button{
+    display: block;
+    margin: 10px;
+  }
+
+  .size{
+    width: 15px;
+    height: 15px;
+  }
+
+  .profile_img{
+    width: 100px;
+    height: auto;
   }
